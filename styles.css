@@ -7,5 +7,41 @@
 }
 
 .navbar{
-  background: #131313;
+  padding: 1rem 8rem;
 }
+
+.navbar .navbar-brand{
+font-size: 1.4rem;
+font-weight: 700;
+}
+
+#navbarResponsive > ul > li > a{
+ color: rgb(255, 254, 254);
+ font-size: 1.1rem;
+ padding: 0 1.1rem;
+}
+
+#navbarResponsive > ul > li > a:hover{
+color: rgb(53, 57, 255);
+}
+
+
+.fixed-top-2 {
+  margin-top: 56px;
+}
+body {
+  padding-top: 105px;
+}
+
+
+.navbar-top{
+  color: rgb(76, 0, 255);
+  padding: 1rem 8rem;
+}
+
+body > nav.navbar.navbar-top.navbar-expand-md.navbar-light.bg-light.fixed-top.d-flex.justify-content-around.mx-auto > h4:nth-child(n){
+padding: 0 3rem;
+  font-size: 1rem;
+}
+
+
