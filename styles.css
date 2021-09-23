@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,800;1,500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -6,42 +7,224 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
-  padding: 1rem 8rem;
-}
-
-.navbar .navbar-brand{
-font-size: 1.4rem;
-font-weight: 700;
-}
-
-#navbarResponsive > ul > li > a{
- color: rgb(255, 254, 254);
- font-size: 1.1rem;
- padding: 0 1.1rem;
-}
-
-#navbarResponsive > ul > li > a:hover{
-color: rgb(53, 57, 255);
-}
-
-
-.fixed-top-2 {
-  margin-top: 56px;
-}
 body {
   padding-top: 105px;
 }
 
 
-.navbar-top{
-  color: rgb(76, 0, 255);
-  padding: 1rem 8rem;
+/***************** Navigation Section *********************/
+
+.navbar .navbar-brand{
+  font-size: 1.4rem;
+  font-weight: 700;
+  }
+
+  .navbar{
+    background-color: #1a3350;
+  }
+  
+  
+  #navbarResponsive > ul > li > a{
+   color: rgb(255, 254, 254);
+   font-size: 1.1rem;
+   padding: 0 1.1rem;
+  }
+  
+  #navbarResponsive > ul > li > a:hover{
+    color: rgb(53, 57, 255);
+  }
+
+.nav-area{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 }
 
-body > nav.navbar.navbar-top.navbar-expand-md.navbar-light.bg-light.fixed-top.d-flex.justify-content-around.mx-auto > h4:nth-child(n){
-padding: 0 3rem;
+.nav-top{
+  color: #747E88;
+  background-color: #fff;
+  padding-bottom: 15px;
+
+}
+
+.nav-top .nav-info ul li {
+  display: inline-block;
+}
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.header_top .header_info ul li i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.nav-top .nav-info ul li a {
+  font-size: 16px;
+  transition: all 0.3s ease-out 0s;
+  font-family: 'montserrat';
+    font-weight: 600;
+}
+
+.nav-top .nav-info {
+  padding-top: 15px;
+}
+
+.nav-top .nav-social ul li {
+  display: inline-block;
+}
+
+.nav-top .nav-social ul li a {
+  font-size: 16px;
+  color: #747E88;
+  transition: all 0.3s ease-out 0s;
+}
+
+ .nav-top h4{
+  color: #747E88;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ .nav-top .header_info {
+  padding-top: 15px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.nav-top .nav-info ul li i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.nav-top .nav-social {
+  padding-top: 15px;
+}
+
+.top-navbar{
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+/***************** Hero Section *********************/
+
+.mid{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mid img{
+  width: 100%;
+  background-position: absolute;
+  background-repeat: no-repeat;
+}
+
+.mid .hero{
+  position: absolute;
+}
+
+.mid .hero p{
+ width: 55%;
+ font-size: 1.1rem;
+ letter-spacing: 0.2px;
+ padding-bottom: 1rem;
+}
+
+.mid .hero a{
+ border: 1px solid black;
+ background: #ff2a5b;
+ color: white;
+ border-radius: 20px;
+ text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  font-size: 1.2rem;
+}
+
+.mid .hero a:hover{
+ background: white;
+ color: #1a3350;
+}
+
+/***************** About Section *********************/
+
+.about{
+  background: rgb(255, 255, 255);
+}
+
+.about .text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+
+.about .text h6{
+  color: #ff2a5b;
+  font-weight: 800;
   font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.about .text h2{
+  color:  #1b1b1b;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p{
+  color: #2c2c2c;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+ 
+.about .text a{
+  border: 1px solid black;
+  background: #ff2a5b;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  color:white;
+  font-size: 1.2rem;
 }
 
 
+
+/***************** Services Section *********************/
+
+section.services {
+  background-color: #ededed;
+}
+
+.card a{
+  color: #007bff;
+}
+
+/***************** Services Section *********************/
+.fa, .fas, .far{
+  color: #ff2a5b ;
+}
+
+
+
+/***************** Footer Section *********************/
+
+footer{
+  background: rgb(51,131,224);
+  background: linear-gradient(90deg, rgb(42 75 112) 0%, rgb(16 70 133) 100%);
+}
+.dash{
+  background-color: #ff2a5b;
+}
