@@ -212,9 +212,16 @@ section.services {
   color: #007bff;
 }
 
-/***************** Services Section *********************/
+/***************** Why Choose Us Section *********************/
 .fa, .fas, .far{
   color: #ff2a5b ;
+}
+
+
+/***************** Testimonials Section *********************/
+
+.testimonials-section{
+  background-color: #ededed;
 }
 
 
