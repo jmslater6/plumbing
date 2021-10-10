@@ -155,8 +155,7 @@ ol {
 /***************** Hero Section *********************/
 
 .mid {
-  width: 100%;
-  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,7 +171,6 @@ ol {
   width: 100%;
   object-fit: cover;
   opacity: 0.4;
-  background-position: absolute;
   background-repeat: no-repeat;
 }
 
@@ -307,6 +305,10 @@ footer {
   background: rgb(51, 131, 224);
   background: linear-gradient(90deg, rgb(42 75 112) 0%, rgb(16 70 133) 100%);
 }
+body > footer > div > div > div > div.col-md-6.col-lg-7.text-center.text-md-right > a{
+  color: white;
+}
+
 
 .dash {
   background-color: #ff2a5b;
