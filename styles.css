@@ -108,9 +108,6 @@ ol {
   z-index: 99;
 }
 
-
-.nav-info {}
-
 @media (max-width: 874px) {
   .hero h2 {
     font-size: 30px;
