@@ -21,19 +21,27 @@
 
 
 .nav-top .nav-info li {
-  color: #007bff;
+  color: #ffffff;
   border: 1px solid black;
   padding: 10px;
-
+  background-color: #ff2a5b;
 }
 
-
+@media (max-width: 363px) {
+  .nav-top .nav-info li{
+    padding: 6px;
+  }
+  
+}
+.nav-top .nav-info li a{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .nav-top {
   color: #747E88;
   background-color: #fff;
   padding-bottom: 15px;
-
 }
 
 .nav-top .nav-info ul li {
@@ -161,8 +169,6 @@ ol {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 600px;
-  width: 100vw;
   background: black;
   overflow: hidden;
 }
@@ -172,6 +178,7 @@ ol {
   object-fit: cover;
   opacity: 0.4;
   background-repeat: no-repeat;
+  height: 50vh;
 }
 
 .mid .hero {
@@ -225,17 +232,18 @@ ol {
   margin: auto;
 }
 
-.about .text h6 {
+.about .text h3 {
   color: #ff2a5b;
   font-weight: 800;
-  font-size: 1rem;
   letter-spacing: 2px;
+  font-family: 'poppins';
 }
 
 .about .text h2 {
   color: #1b1b1b;
   font-weight: 700;
   font-size: 2.7rem;
+
 }
 
 .about .text p {
@@ -284,19 +292,31 @@ section.services {
 
 .carousel .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff2a5b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  padding: 0 110px;
+  
+
 }
 
 .carousel .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff2a5b' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel p {
-  padding: 0 110px;
-}
 
 .controls {
   padding-bottom: 80px;
+}
+
+@media (max-width: 427px) {
+  .controls {
+    padding-bottom: 200px;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  body > section.testimonials-section.text-center.dark-grey-text.p-5 > div > h1{
+    font-size: 30px;
+  }
+  
 }
 
 /***************** Footer Section *********************/
