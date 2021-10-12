@@ -28,8 +28,8 @@
         <div class="nav-info text-center">
           <ul>
             <a href="/index.html"><img src="img/logo.png" width="80" height="80" class="d-inline-block" alt="Company Logo"></a>
-            <li><i" class="ri-phone-fill"></i><a href="#"> +800-9233-3213</a></li>
-            <li><i" class="ri-mail-fill"></i><a href="#"> Schedule Service</a></li>
+            <li class="rounded"><i" class="ri-phone-fill"></i><a href="#"> +800-9233-3213</a></li>
+            <li class="rounded"><i" class="ri-mail-fill"></i><a href="#"> Schedule Service</a></li>
           </ul>
         </div>
         <div class="nav-social d-none d-md-block">
@@ -67,14 +67,43 @@
 <div class="service-area">
   <div class="container">
     <h1 class="text-center font-weight-bold mb-4 p-3">Contact Us Today!</h1>
-    <div class="contact-content d-flex"> 
-      <img class= "img-fluid mx-auto" src="/img/nj.png" alt="">
+    <div class="d-flex p-5"> 
+      <img class= "img-fluid mr-5 " src="/img/nj.png" alt="">
       <div class="text-center">
         <h2>Servicing Monmouth and Ocean County</h2>
         <div class="contact-info d-flex justify-content-center">
           <i class="fas fa-phone pr-2"></i><h5 class="pr-5">732-504-4555</h5>
           <i class="fas fa-home pr-2"></i><h5>12 Main Street Toms River, NJ</h5>
         </div>
+        <form class="contact-form p-5 rounded">
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault01"></label>
+              <input type="text" class="form-control form-control-lg" id="validationDefault01" placeholder="First name" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault02"></label>
+              <input type="text" class="form-control form-control-lg" id="validationDefault02" placeholder="Last name" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault03"></label>
+              <input type="number" class="form-control form-control-lg" id="validationDefault03" placeholder="Phone" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault04"></label>
+              <input type="email" class="form-control form-control-lg" id="validationDefault04" placeholder="example@mail.com" required>
+            </div>
+            </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationDefault05"></label>
+              <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" placeholder="Message..."></textarea>
+            </div>
+          </div>
+          <button class="rounded" type="submit">Submit form</button>
+        </form>
       </div>
     </div>
   </div>
