@@ -10,19 +10,43 @@
 
 /***************** Navigation Section *********************/
 
+/* stroke */
+nav ul li a {
+  position: relative;
+}
+nav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: rgb(255, 0, 0);
+  height: 3px;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
 .navbar .navbar-brand {
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .navbar {
-  background-color: #3e3636;
+  background-color: #272222;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   font-size: 1.1rem;
 }
+
+/* .navbar-dark .navbar-nav a.nav-link:hover {
+  border-bottom: 3px solid red;
+} */
 
 .nav-top .nav-info li {
   color: #ffffff;
@@ -266,7 +290,7 @@ section.services {
 .fa,
 .fas,
 .far {
-  color: #ff2a5b;
+  color: #ff0000;
 }
 
 /***************** Testimonials Section *********************/
@@ -306,7 +330,7 @@ section.services {
 /***************** Footer Section *********************/
 
 footer {
-  background: rgb(224, 51, 51);
+  background: rgb(255, 0, 0);
   background: linear-gradient(90deg, rgb(41, 41, 41) 0%, rgb(19, 19, 19) 100%);
 }
 body
@@ -321,6 +345,14 @@ body
 
 .dash {
   background-color: #ffffff;
+}
+
+body footer a {
+  color: white;
+}
+
+footer .footer-top{
+ background: red; 
 }
 
 /***************** Contact Page *********************/
